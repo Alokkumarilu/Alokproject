@@ -1,6 +1,6 @@
 body
 {
-    background:url("car1.jpg") no-repeat;
+   background:url("car1.jpg") no-repeat;
     background-size:cover;
     color:white;
     
@@ -39,7 +39,7 @@ ul li
     height:30px;
     background-color:green;
     color:white;
-    opacity:0.8;
+    opacity:1;
     line-height:30px;
     text-align:center;
     font-size:20px;
