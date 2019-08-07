@@ -7,6 +7,10 @@ body
 h3
 {
     text-align: center;
-    color: black;
+    color: green;
     
+}
+p
+{
+    font-size: 25px;
 }
