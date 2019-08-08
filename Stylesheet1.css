@@ -1,6 +1,6 @@
 body
 {
-   background:url("car1.jpg") no-repeat;
+  
     background-size:cover;
     color:white;
     
@@ -24,7 +24,8 @@ color:black;
 }
 img
 {
-    width:100%;
+    width:40%;
+    position: right; 
 }
 ul
 {
@@ -35,7 +36,7 @@ ul
 ul li
 {
     float:left;
-    width:180px;
+    width:270px;
     height:30px;
     background-color:green;
     color:white;
@@ -50,19 +51,22 @@ ul li a
      text-decoration :none;
      color:white;
      display:block;
+     width: 100%;
 }
 ul li a:hover
 {
     background-color:black;
+    
 }
 ul li ul li 
 {
     display:none;
     width:100%;
+    opacity: 0.8;
 }
 ul li:hover ul li
 {
-    display:block;
+    display: table-cell;
 }
 container
 {
